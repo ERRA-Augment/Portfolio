@@ -14,7 +14,6 @@ function Navbar() {
 
       <Navbuttons value="Contact" classname="contact" />
      
-
   </div>
   )
 }
