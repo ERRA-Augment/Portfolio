@@ -1,0 +1,29 @@
+.navbar {
+    display: flex;
+    width: 100%;
+    background-color: #3e5879;
+    justify-content: space-evenly;    
+    font-weight: bold;
+    font-size: large;
+    color: white;
+}
+
+.home:hover {
+    color: orangered;
+    cursor: pointer;
+}
+
+.linkdin:hover {
+    color: orangered;
+    cursor: pointer;
+}
+
+.github:hover {
+    color: orangered;
+    cursor: pointer;
+}
+
+.contact:hover {
+    color: orangered;
+    cursor: pointer;
+}
