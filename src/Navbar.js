@@ -1,18 +1,30 @@
 import React from "react"
 import './navbar.css'
-import Navbuttons from './Navbuttons';
+import HomeRoundedIcon from '@material-ui/icons/HomeRounded';
+import { GitHub, LinkedIn } from "@material-ui/icons";
+import ContactSupportSharpIcon from '@material-ui/icons/ContactSupportSharp';
+
 
 function Navbar() {
   return (
+    
     <div className="navbar">
-     
-      <Navbuttons value="Home" classname="home" />
-     
-      <Navbuttons value="Linkdin" classname="linkdin" />
+      <div className="home">
+      <HomeRoundedIcon />
+      </div>
 
-      <Navbuttons value="Github" classname="github" />
+      <div className="linkdin">
+        <LinkedIn />
+      </div>
 
-      <Navbuttons value="Contact" classname="contact" />
+      <div className="github">
+        <GitHub />
+      </div>
+
+      <div className="contact">
+        <ContactSupportSharpIcon />
+      </div>
+
      
   </div>
   )

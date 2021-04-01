@@ -1,29 +1,46 @@
 .navbar {
     display: flex;
     width: 100%;
-    background-color: #3e5879;
+    background-color: lightskyblue;
     justify-content: space-evenly;    
-    font-weight: bold;
-    font-size: large;
     color: white;
+    padding-top: 25px;
+    border: 1px solid white;
+}
+
+.home {
+    transform: scale(2);
 }
 
 .home:hover {
-    color: orangered;
+    color: #3e5879;
     cursor: pointer;
+
+}
+
+.linkdin {
+    transform: scale(2);
 }
 
 .linkdin:hover {
-    color: orangered;
+    color: #3e5879;
     cursor: pointer;
+}
+
+.github {
+    transform: scale(2);
 }
 
 .github:hover {
-    color: orangered;
+    color: #3e5879;
     cursor: pointer;
 }
 
+.contact {
+    transform: scale(2);
+}
+
 .contact:hover {
-    color: orangered;
+    color:  #3e5879;
     cursor: pointer;
 }
